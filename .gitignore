@@ -32,8 +32,8 @@
 *.app
 
 
-# Sounds files
+# Binary files
 sounds/**
-
-
+bin/**
+sound.list
 

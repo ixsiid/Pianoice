@@ -1,3 +1,6 @@
+#ifndef MIDI_H
+#define MIDI_H
+
 #include <iostream>
 #include <rtmidi/RtMidi.h>
 
@@ -14,3 +17,4 @@ public:
     RtMidi * connect(std::string target, MidiDirection direction);
 };
 
+#endif /* MIDI_H */
